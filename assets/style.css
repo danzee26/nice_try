@@ -1,0 +1,45 @@
+.top-section {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+      url('../assets/img/bg-top.jpg');
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      background-attachment: fixed;
+    }
+
+    .sport-card {
+      background-color: rgb(255, 207, 192);
+      border: none;
+      border-radius: 15px;
+      transition: transform 0.3s ease;
+      height: 100%;
+    }
+
+    .sport-card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    }
+
+    .info-block {
+      background-color: rgb(255, 229, 192);
+      min-height: 350px;
+      display: flex;
+      align-items: center;
+    }
+
+    .stat-card {
+      border: none;
+      border-radius: 12px;
+      transition: 0.3s;
+    }
+
+    .nav-a {
+      transition: 0.2s;
+      font-weight: 500;
+    }
+    .nav-a:hover {
+      color: #ffc107 !important;
+    }
